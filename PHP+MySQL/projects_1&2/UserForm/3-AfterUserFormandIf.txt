@@ -1,0 +1,13 @@
+Page 144 - 147
+
+1.  Create a function in common.php called loginToSite 
+   with two parameters, userid (or username) and password
+
+2.  MOVE (DO NOT COPY) the if/else logic from login.php to inside of the function; 
+
+make sure common.php is required by login.php 
+
+3.  In login.php call the function loginToSite 
+  and pass the two parameters collected in your variables (username and password) into the function
+
+4.  Test both a good password and a bad password

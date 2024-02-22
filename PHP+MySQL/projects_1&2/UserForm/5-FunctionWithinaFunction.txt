@@ -1,0 +1,19 @@
+Update common.php with the following:
+
+1.  Create a new function named success and 
+  echo the baby image as the logic of the function (images are in the includes directory)
+
+2.  Create a new function named failure 
+and echo the office space manager image as the logic of that function.
+
+3.  Call success function from the if statement inside of loginToSite
+ before the return statement (or it will not execute)
+
+ 4.  Call failure function from the else statement inside of loginToSite
+ before the return
+
+ 5. in login.php comment out (do not delete) the if statement that redirects back to userform.php, this is so that your code will remain in login.php and display the correct image so you can test. 
+ if the passwords do not match; we are going to use the return variable later on
+
+ 6. run tests with a good password and a bad password
+

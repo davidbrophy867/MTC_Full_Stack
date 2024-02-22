@@ -1,0 +1,15 @@
+Make sure you're using Google Chrome now in VSCode
+
+Validat the index file in the chapter05 subdirectory has two links to two different home files.
+
+Create home.php from home.html, copy and rename - 3 files will be created from the one home.html file.
+
+Create header.php and footer.php in includes
+Copy/cut the correct code from home.php and move it to header and footer
+
+require header.php at the top and footer.php at the bottom of home.php
+
+HTML code is on 135 - 137, finished php code is on page 137
+
+
+

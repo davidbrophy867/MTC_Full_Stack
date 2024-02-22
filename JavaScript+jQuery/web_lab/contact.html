@@ -1,0 +1,93 @@
+<!doctype html>
+<!--David Brophy-->
+
+<html lang="en">
+<head>
+    <title>Contact Us | Adventures Insurance</title>
+	
+	<meta charset="utf-8" />
+    <meta name="description" content="Contact Adventures Insurance about insurance for carnivals, zoos, circuses, amusement parks, and fairs.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="dark_bkgd">
+        <header> <!--heading with logo and navigation bar-->
+            <img class="logo" src="./student_files_2023/images/logo.png" title="Adventures Insurance" alt="Adventures Insurance">
+            <br>
+            <img class="logo_bkgd" src="./student_files_2023/images/zoo.png" title="Adventures Insurance Zoo Art" alt="Image of People at a Zoo">
+            <br>
+
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <main>
+        <section> <!--thank you page stuff-->
+           
+           <h1>Contact Adventures Insurance</h1>
+           <!--form-->
+           <form class="contactForm" action="thankyou.html" method="get">
+            <div class="firstname">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required autofocus placeholder="First Name">
+            </div>
+
+            <div class="lastname">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required placeholder="Last Name">
+            </div>
+
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required  placeholder="Email Address">
+            </div>
+
+            <div class="phone">
+                <label for="phone">Phone #:</label>
+                <input type="tel" id="phone" name="phone">
+                <!--pattern="\d{3}[\-]\d[3][\-]\d{4}" title="Must be 999-999-9999">-->
+            </div>
+
+            <div class="contactEmail">
+                <label for="contactEmail" class="contactLabel">Contact me by email:</label>
+                <input type="checkbox" id="contactEmail" name="contact" class="contact">
+            </div>
+
+            <div class="contactPhone">
+                <label for="contactPhone" class="contactLabel">Contact me by phone:</label>
+                <input type="checkbox" id="contactPhone" name="contact" class="contact">
+            </div>
+
+            <div class="comments">
+                <label for="comments" class="commentsLabel">Comments:</label>
+                <textarea id="comments" name="comments" placeholder="Comments"></textarea>
+                
+            </div>
+            
+            <input class="submit" type="submit" value="Submit">
+          </form>
+
+        </section>
+
+    <footer class="dark_bkgd"> <!--bottom of page stuff (ex. copyright)-->
+        <p>
+            <span>
+                Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> &#169 Adventures Insurance
+            </span>
+            <img src="./student_files_2023/images/facebook.png" title="Follow us on Facebook" alt="Facebook">
+        </p>
+    </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

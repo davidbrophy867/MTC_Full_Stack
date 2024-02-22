@@ -1,0 +1,41 @@
+form{
+    border: 3px dashed red;
+    padding: 3em;
+    padding-top: 0.5em;
+    width: 500px;
+    height: 200px; 
+    margin: auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: blue;
+    font-size: 150%;
+}
+
+/************
+David Brophy
+10/31/2023
+************/
+
+div{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 5px;
+}
+
+div label{
+    text-align: left;
+    margin-right: 3em; 
+    margin-bottom: 1em;
+
+}
+div input{
+    margin-bottom: 1em;
+    width: 15em;
+}
+
+
+.choice{width: 9em;}
+#addition{margin-right: 1em;}
+

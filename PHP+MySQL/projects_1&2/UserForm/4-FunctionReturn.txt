@@ -1,0 +1,16 @@
+Page 152
+
+1. update the function loginToSite so that if the passwords match the last line in the if statement returns true
+
+2. update the function loginToSite so that if the passwords do not match the last line of the else statements returns false
+
+3. in login.php create a variable that will capture what is being returned by loginToSite
+
+4. if that variable is false, copy and paste the following line of code - this will return the user back to the userform
+	<?php header("Location: userform.php"); ?>
+You may research this logic.  p 455
+
+5.  If the variable is true, do nothing (they will just stay on the login page)
+
+6. run tests with a good password and a bad password
+

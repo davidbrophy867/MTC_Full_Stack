@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description"
+        content="Sign up for the Fall Shop email list for exclusive offers and deals">
+    <title>The Fall Shop</title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./images/header-pumpkin.gif" width="95 px"> <!-- -------------- -->
+        <h2>The Fall Shop</h2>
+        <h3>For everyone who loves Fall!</h3>
+    </header>
+
+    <nav class="top_2_tier_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Product List</a></li>
+            <li><a href="./favorites/personal.html">Personal</a></li>
+            <li>
+                <a href="#">Decorating Ideas</a>
+                <ul>
+                    <li><a href="#">Outdoor</a></li>
+                    <li><a href="#">Indoor</a></li>
+                    <li><a href="#">Table</a></li>
+                    <li><a href="#">Treats</a></li>
+                </ul>
+            </li>
+            <li><a href="email.html" class="current">Join Email</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <section>
+            <form action="subscribe.html" method="get"> 
+                <h1>Please enter the following information:</h1>
+
+                <section class="firstname">
+                    <label for="fname">First name:</label>
+                    <input type="text" name="fname" id="fname" required autofocus>
+                </section>
+                <br>
+
+                <section class="lastname">
+                    <label for="lname">Last name:</label>
+                    <input type="text" name="lname" id="lname" required>
+                </section>
+                <br>
+
+                <section class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </section>
+                <br>
+
+                <section class="zipcode">
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" name="zip" id="zip" placeholder = "Optional but appreciated. 99999" pattern="\d{5}([\-]\d{4})?" title="Must be 99999 or 99999-9999">
+                </section>
+                <br>
+
+                <section class="button">
+                    <input type="submit" name="submit" value="Subscribe"> 
+                </section>
+                <br>
+            </form>
+        </section>
+
+        <aside>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Photos</a>
+                    </li>
+                    <li>
+                        <a href="#">Pumpkins</a>
+                    </li>
+                    <li>
+                        <a href="#">Fall Sweaters</a>
+                    </li>
+                    <li>
+                        <a href="#">Fall Candles</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </main>
+
+    <footer>
+        Copyright Ben Murach
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script> &copy;
+    </footer>
+</body>
+
+</html>

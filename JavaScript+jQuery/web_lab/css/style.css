@@ -1,0 +1,212 @@
+/*David Brophy*/
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma,  sans-serif;
+    background-color: #FEFEEE;
+}
+
+image{
+    border-style: none;
+}
+
+.dark_bkgd{
+    background-image: url("../student_files_2023/images/bkgd.gif");
+    background-position: center center;
+}
+
+header{
+    background-image: url("../student_files_2023/images/top_bg.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 475px;
+    width: 800px;
+    margin: 40px auto; 
+}
+
+.logo{
+    margin-left: 153px;
+}
+
+.logo_bkgd{
+    margin-left: 19px;
+}
+
+ul li{
+    list-style-type: none; 
+    font-size: 120%;
+    float: left;
+    margin: 0em 2.1em;
+    display: table;
+    line-height: 150%;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    font-style: italic;
+}
+
+main{
+    background-color: #FEFEEE;
+}
+
+main section{
+    background-color: #FEFEEE;
+    height: 450px;
+    width: 800px;
+    margin: 40px auto;
+    padding-left: 125px; /*adjust as needed*/ /*-------------------------------------------------------------------*/ 
+}
+
+main section article{
+    width: 350px;
+}
+
+.left{
+    float: left;
+    border-right: 1px dotted black;
+}
+.right{
+    float: right;
+}
+
+h1{
+    color: #601d15;
+}
+
+p{
+    width: 258px;
+}
+
+.button{
+    margin: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+
+footer{
+    float: none;
+    height: 50px;
+    width: 100%;
+    background-image: url("../student_files_2023/images/top_bg.jpg");
+    background-position: top left;
+}
+
+.dark_bkgd p{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.dark_bkgd p span{
+    float: left;
+}
+
+.dark_bkgd p img{
+    float: right;
+}
+
+
+/*----------------General Rules for all labels and inputs------------------------*/
+label{
+    color: #601d15;
+    font-size: 120%;
+    float: left;
+    margin: auto;
+    
+}
+input{
+    float: right;
+    margin-right: 40px;
+    height: 20px;
+}
+/*------------------Formatting the width of the form----------------------*/
+div{
+    width: 400px;
+    margin-bottom: 20px;
+}
+/*-------------------Specific formatting for each input/label pair---------------------*/
+.firstname{
+    float: left;
+}
+.lastname{
+    float: right;
+}
+.email{
+    float: left;
+}
+.phone{
+    float: right;
+}
+.contactEmail{
+    float: left;
+}
+.contactPhone{
+    float: right;
+}
+.contact{
+    cursor: pointer;
+    float: left;
+}
+.contactLabel{
+    margin-right: 10px;
+}
+input::placeholder{
+    color: grey;
+    font-size: 120%;
+}
+/*-----------------specific formatting for the comments section-----------------------*/
+.comments{
+    float: left;
+    width: 800px;
+}
+.comments textarea{
+    float: none;
+    margin-left: 25px;
+    width: 630px;
+    height: 120px;
+    max-width: 630px;
+    max-height: 200px;
+}
+
+textarea::placeholder{
+    color: grey;
+    font-size: 150%;
+}
+
+.commentsLabel{
+    margin-top: 46px;
+}
+/*------------------specific formatting for the submit button----------------------*/
+.submit{
+    float: left;
+    background-color: #601d15;
+    color: white;
+    font-size: 120%;
+    padding: 10px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+}
+
+/*-----------thank you page---------------*/
+@font-face {
+    font-family: "AdventuresTitles";
+    src: url("../student_files_2023/font/ARTIM.woff") format('woff');
+  }
+
+  .thankyou{
+    font-family: AdventuresTitles
+    ;
+  }
+

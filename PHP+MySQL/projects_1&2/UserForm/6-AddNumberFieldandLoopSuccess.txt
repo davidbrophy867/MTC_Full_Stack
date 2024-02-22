@@ -1,0 +1,15 @@
+1.  Add a new input field to userform.php, ask the user to enter
+a number 1 - 10 after their username and password, make sure to capture the new input from the post superglobal
+
+2.  Update loginToSite to now accept three parameters in the 
+definition of the function and 
+
+3. update where the function is being called to also have 3 parameters
+
+4.  In loginToSite pass the number to your success function by adding a parameter to the success 
+function definition and another parameter where you are calling the function
+
+5.  In the success function, add a for loop or a while loop that echos out
+the number of baby images that the user requested upon success.  Limit that number to 10 if they enter more than 10 on the form (for performance sake), you can also check to make sure they do not enter other characters than numbers 
+
+You do not need to update failure

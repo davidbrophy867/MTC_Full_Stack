@@ -1,0 +1,27 @@
+In UserForm directory
+
+
+1.  Create login.php - use the same include files in userform.php; create it in the UserForm subdirectory (not includes)
+
+make sure there is a section element, just like userform.php, you may also just copy userform.php to login.php and remove the form in the middle
+
+2.  Call login.php in the form in userform.php (action)
+
+
+3.  In login.php - at the very top, retrieve the username and password from userform.php and save them into variables
+
+4.  In the section element in login.php create an if and else statement:
+
+If the password that the user enters is equal to a string you make up (ie: "secretpassword" (pick something yourself)
+
+echo "success!"
+
+else
+echo "failure!"
+
+(or whatever message you'd like to see on the screen; keep it nice!)
+
+You don't need the username variable at this point in the if statement.
+
+
+5. Test both a good password and a password that won't work.

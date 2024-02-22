@@ -1,0 +1,15 @@
+USERFORM PROJECT
+
+edit userform.php - between the section tags - create a form with 2 fields: username, password
+
+use correct HTML5, all text should be in title or label elements, add a submit button.  The action of the form will be login.php 
+(this doesn't exist yet) and the method is post.
+
+INCLUDE PROJECT
+create common.php in the includes subdirectory
+create a function called signon in common.php that echos 'Welcome, (your name)' in an h2 tag
+edit userform.php to call signon() above the form; refresh the page - make sure that signon shows up
+
+ERROR FUNCTION
+add a call to error() below the form, refresh the page - this will only show what happens when we make a call to a function that does not exist.  
+Notice the error, then remove or comment out the function

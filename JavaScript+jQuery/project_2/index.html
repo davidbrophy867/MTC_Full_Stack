@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<!-- David Brophy -->
+<!--10/31/2023-->
+
+<head>
+	<title>Multiply or Add Two Numbers</title>
+	
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <form id="myForm">
+        <h1>Multiply or Add Numbers</h1>
+
+        <div id="input">
+            <label>Enter First Number:</label>
+            <input class="textbox" id="firstNum" type="text">
+
+            <label>Enter Second Number:</label>
+            <input class="textbox" id="secondNum" type="text">
+
+            <label>Answer: </label> 
+            <input class="textbox" id="answer" type="text" readonly placeholder="">
+            
+            <div id="placeholder"></div>
+            
+            <div id="multoradd">
+                <input class="choice" id="addition" value="ADD" type="submit">
+                <input class="choice" id="multiply" value="MULTIPLY" type="submit" >
+            </div>
+        </div>
+
+
+        <div id="message">
+            <!--For Error Messages-->
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

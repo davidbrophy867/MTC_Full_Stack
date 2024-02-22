@@ -1,0 +1,24 @@
+MAIN PROJECT
+On page 133
+
+Create a virtual directory to chapter05 on your machine using WAMP
+
+Open index.html file in the chapter05 subdirectory and make sure the link points to a file called main.php in example1 - this code doesn't exist yet - create below:
+
+in example1:
+create main.php
+copy the code on page 133 into main.php
+
+
+Create a subdirectory "includes" in directory example1
+in exmaple1\includes subdirectory
+create reusable.php
+copy the code on page 133 into reusable
+
+update main.php to include the
+includes path in front of reusable
+
+note: require('includes/reusable.php');
+
+Check to make sure you see all of the code on page 133
+
